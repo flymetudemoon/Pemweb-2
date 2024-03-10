@@ -18,40 +18,26 @@ if ($total > 55){
 // tampilan grade
 if  ($total > 84){
     $grade = "A";
-}
-elseif ($total > 69){
-    $grade = "B";
-}
-elseif ($total > 55){
-    $grade = "C";
-}
-elseif ($total > 35){
-    $grade = "D";
-}
-elseif ($total > 0){
-    $grade = "E";
-}
-else {
-    $grade = "I";
-}
-
-// tampilan predikat
-if  ($total > 84){
     $predikat = "Sangat Memuaskan";
 }
 elseif ($total > 69){
+    $grade = "B";
     $predikat = "Memuaskan";
 }
 elseif ($total > 55){
+    $grade = "C";
     $predikat = "Cukup";
 }
 elseif ($total > 35){
+    $grade = "D";
     $predikat = "Kurang";
 }
 elseif ($total > 0){
+    $grade = "E";
     $predikat = "Sangat Kurang";
 }
 else {
+    $grade = "I";
     $predikat = "Tidak ada";
 }
 
